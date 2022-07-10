@@ -1,12 +1,12 @@
 service: node-in-aws-web
 
-frameworkVersion: '2'
+frameworkVersion: '3'
 
 provider:
   name: aws
   runtime: nodejs12.x
   # setup profile for AWS CLI.
-  # profile: node-aws
+  profile: jetalai-admin
 
 plugins:
   - serverless-finch
@@ -17,7 +17,7 @@ plugins:
 
 custom:
   client:
-    bucketName: node-in-aws-web-bucket
+    bucketName: jetalai-2
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
