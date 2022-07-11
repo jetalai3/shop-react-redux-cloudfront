@@ -1,5 +1,5 @@
 S3 bucket link:
-https://node-in-aws-web-dev-serverlessdeploymentbucket-1a7uelfyf3v5b.s3.amazonaws.com/
+http://jetalai-4.s3-website-us-east-1.amazonaws.com/
 
 Cloudfront deployment link:
 https://d2b4ky0cl12sci.cloudfront.net/
