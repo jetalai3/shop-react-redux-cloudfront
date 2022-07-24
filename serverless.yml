@@ -1,4 +1,4 @@
-service: node-in-aws-web
+service: node-in-aws-web-2
 
 frameworkVersion: '3'
 
@@ -17,7 +17,7 @@ plugins:
 
 custom:
   client:
-    bucketName: jetalai-2
+    bucketName: jetalai-4
     distributionFolder: build
   s3BucketName: ${self:custom.client.bucketName}
 
