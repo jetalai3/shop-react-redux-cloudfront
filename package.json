@@ -27,13 +27,14 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
-    "@types/lodash": "^4.14.182",
     "@types/jest": "^27.0.1",
+    "@types/lodash": "^4.14.182",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@types/react-redux": "^7.1.7",
     "@types/react-router-dom": "^5.1.5",
+    "@types/uuid": "^8.3.4",
     "@types/yup": "^0.29.3",
     "axios": "^0.27.2",
     "formik": "^2.2.9",
@@ -48,6 +49,7 @@
     "serverless-finch": "^4.0.0",
     "serverless-single-page-app-plugin": "file:./serverless_plugins",
     "typescript": "^4.4.2",
+    "uuid": "^8.3.2",
     "yup": "^0.29.1"
   },
   "eslintConfig": {
